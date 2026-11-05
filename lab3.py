@@ -10,7 +10,7 @@ regions = {}
 
 # Reading part
 try:
-    with open("country_ful.csv", "r", encoding="utf-8") as f:
+    with open("country_full.csv", "r", encoding="utf-8") as f:
         reader = csv.reader(f)
         next(reader)
         for row in reader:
